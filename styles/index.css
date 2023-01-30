@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	background-color: #E8DCB8;
+	height: 100hv;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background-color: #E5D4A0;
+	padding: 10px;
+}
+
+#logo {
+	max-height: 50px;
+}
+
+main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+#content {
+	padding: 0px 10px;
+	flex: 1;
+}
+
+footer {
+	padding: 10px;
+	background-color: #E5D4A0;
+}
