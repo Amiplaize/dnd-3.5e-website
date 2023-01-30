@@ -15,11 +15,22 @@ header {
 	top: 0;
 	z-index: 999;
 	background-color: #E5D4A0;
-	padding: 10px;
+	display: flex;
+	align-items: center;
 }
 
-#logo {
-	max-height: 50px;
+header a {
+	font-size: 17px;
+	padding: 14px 16px;
+	cursor: pointer;
+}
+
+header a:hover {
+	background-color: #E2CC88;
+}
+
+header a.active {
+	background-color: #E0C470;
 }
 
 main {
@@ -28,7 +39,7 @@ main {
 	flex-direction: column;
 }
 
-#content {
+.content {
 	padding: 0px 10px;
 	flex: 1;
 }
